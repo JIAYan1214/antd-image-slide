@@ -11,9 +11,10 @@
 
 `externals: {'Swiper':'Swiper'}`
 
-
+- *安装包:*
 yarn add antd-image-slide
 
+- *示例:*
 ```
 import ImgSlide from 'antd-image-slide'
 
