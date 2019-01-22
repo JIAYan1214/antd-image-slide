@@ -1,5 +1,4 @@
-#antd-image-slide
-
+# antd-image-slide
 >基于 antd-modal+swiper4 的弹层图片轮播组件
 
 - *由于旋转功能修改了 swiper4 源码，采用cdn方式引入swiper:*
