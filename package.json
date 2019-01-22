@@ -1,7 +1,7 @@
 {
   "name": "antd-image-slide",
   "version": "1.0.0",
-  "description": "antd-image-slider",
+  "description": "antd-image-slide",
   "main": "dist/bundle.js",
   "files": [
     "dist"
