@@ -52,5 +52,6 @@ class App extends Component {
   }
 }
 ```
-
+### 演示
+[antd-image-slide.ih5lab.com](http://antd-image-slide.ih5lab.com/)
 ![截图](https://raw.githubusercontent.com/zeyuang/antd-image-slide/master/readme.img/readme.gif)
