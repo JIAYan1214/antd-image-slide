@@ -6,14 +6,13 @@
 <link rel="stylesheet" href="http://public.fuyoukache.com/web/swiper.4.3.3.css" />
 <script src="http://public.fuyoukache.com/web/swiper-4.4.6.rotate.min.js"></script>
 ```
-- *webpack配置:*
-
+### webpack配置
 `externals: {'Swiper':'Swiper'}`
 
-- *安装包:*
-yarn add antd-image-slide
+### 安装包
+`yarn add antd-image-slide`
 
-- *示例:*
+### 示例
 ```
 import ImgSlide from 'antd-image-slide'
 
