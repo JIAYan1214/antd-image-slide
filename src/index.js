@@ -164,9 +164,9 @@ export default class ImgSlide extends React.Component{
                     </div>
 
                     <div className="control">
-                        <span className='a' onClick={this.swiperZoomIn}><Icon type="zoom-in" /></span>
-                        <span className='a' onClick={this.swiperZoomOut}><Icon type="zoom-out" /></span>
-                        <span className='a' onClick={this.swiperRotate}><Icon type="undo" /></span>
+                        <span className='a' onClick={this.swiperZoomIn}><i className="iconfont icon-fangda" /></span>
+                        <span className='a' onClick={this.swiperZoomOut}><i className="iconfont icon-suoxiao" /></span>
+                        <span className='a' onClick={this.swiperRotate}><i className="iconfont icon-xuanzhuan" /></span>
                     </div>
                 </div>
             </Modal>

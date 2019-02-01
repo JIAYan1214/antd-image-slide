@@ -1,3 +1,11 @@
+@font-face {font-family: "iconfont_antd_image_slide";
+  src: url('//at.alicdn.com/t/font_1038178_0xqcmxku291h.eot?t=1548989287409'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1038178_0xqcmxku291h.eot?t=1548989287409#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAREAAsAAAAACKQAAAP2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEYIQtATYCJAMQCwoABCAFhG0HRhudBxEVnC/Jfh6UbXpcFQ1HRtJvW29+GmUU950P9ae9+TNtf/wLJwXklZKFmKxxAk/SkTxuiGR3vy0psxQCofL3+H9zrimWL0zUy5F8ix59Ie04uzR7+uNe1YxNiX3MehaLy9yDcqFweGuAdvewRdaCVNC7yO4I1KKfBgJADDs+SEpaTgl4MBgnEQCkp7O9EXzKCFZDI+A1hiVXMpDVMADPLeMeAFb5v08+44YHOBhQGGcWtKW2IOEde2dN5+rnqnFREA1nB8BdB1AAPgAGkI5SZxNomPRBIVbyGcIAvGnngKFWjN5Z66firSh5+i8PIKDgAGIIQykl+JAUBd4xmwMEeGckLFNZYyM4imXHeQASADeBmCOtcph8BuZgppQamwXB1GS67Ebws3llT59aiLrk8WNkbumTJ2dryu/Hl27Q6OY1qWH2H6ufYtK8ZyTNk41zH5eJyTyt+jAgduhzj0gkiGt0hEia6rXDg/AFvmB/9qw84Cf5mIfPqtg4T6cxL90w97DaYkit5RCJTHPkHuJe6a2nTnTfs3TZzSeO3O7HY0PKOeEimUZnSTdqxaXqgxZPn5aA5ZZ4+4bNZuub1BZlG+dZlm9qbTeLiVXuFg12905WiSptuypdmdzZlaJMU223eB4v4iXb7dK326UpUzo7S3Sh+2B30ipTlbafCcH9Ad9Zg34VFX6Dsy2ex4tyZg/4VVb4io/yHdDca21SmKpMFU3tikBVoKK9E1E6W2ugV0vOnl3iyDh2jFsS5yYtoXufP99LZJSM0b2kee2lZTZONpt37fKaPDbKjZXG8gTSiHPxv5GQgDmOIKQKcwS/s4VQyvDsD/9tnKqYo0g1fmQt9c5KWvyuqIIKpY4lP/b7sjh8pk73buj8fuFyerrOXpuecdm+zbvHm9c6uzYMAAD09RWazDLueTQhrc/QxF/jb/A/Lv1fvSLmL38YAOD55ON2HNAbdBO9XxFY9COIgENMlRgmxmSpLdRcDAWJPHAAxKYFeP1ZwMTbIdTm4HKAgId5DByMoAIKHi5ohvcBA0gQAobgEQ9ieEu/XgJTQ6AgTATAyyIEBIITwEGOG0AheIhm+DdgAAtfwRBCKChyr+zuWNinz4+MStCC/kFvaHGWRfKg8oZ+mxQnJT79hRz6CDRlnc1ccUEe4pzw9q2IA8c0wwU9D6eJYGUa0EjZiayHqnJl31QamqPcEUOKQBbQfkDPIAvnThZ57udvkLeZKFwzUOF+QSzo1weNUg1AX5ULaOBStgdvXksIR485jMzABdvRZCYJWMv3DZAhSl2H+OqgIqMcVFlOr57v8BRsxrsnlc5kiZ9avFVJ2OjbK8q+m1r+nWOIIgAA') format('woff2'),
+  url('//at.alicdn.com/t/font_1038178_0xqcmxku291h.woff?t=1548989287409') format('woff'),
+  url('//at.alicdn.com/t/font_1038178_0xqcmxku291h.ttf?t=1548989287409') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1038178_0xqcmxku291h.svg?t=1548989287409#iconfont') format('svg'); /* iOS 4.1- */
+}
 .swiper_modal{
   :global{
     .ant-modal-body{
@@ -13,7 +21,26 @@
       font-size: 22px;
     }
     .anticon-close:before,.ant-modal-close-x:before{
-      content:'' !important
+      //content:'' !important
+    }
+    .iconfont {
+      font-family: "iconfont_antd_image_slide" !important;
+      font-size: 26px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .icon-fangda:before {
+      content: "\e604";
+    }
+
+    .icon-suoxiao:before {
+      content: "\e619";
+    }
+
+    .icon-xuanzhuan:before {
+      content: "\e607";
     }
   }
 }
@@ -98,3 +125,6 @@
     }
   }
 }
+
+
+
